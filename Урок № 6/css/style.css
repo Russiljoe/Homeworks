@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto',sans-serif;
+}
+.Преимущест {
+  font-weight: bolder;
+  color: #393939;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Преимущества {
+  color: #fd58b2;
+}
+.wrapper {
+  text-align: center;
+}
+figure {
+  width: 15%;
+  word-wrap: break-word;
+  line-height: 28px;
+  display: inline-block;
+  text-align: center;
+  padding-left: 6px;
+}
+
+
+
