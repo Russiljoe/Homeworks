@@ -2,7 +2,7 @@ body {
   font-family: Tahoma;
   margin: 0;
   background-size: 10px 10px;
-  background: silver;
+  background-Color: '#f3f3f3';
 }
 button:focus {
   outline: none;
@@ -11,7 +11,6 @@ button:focus {
   width: 1140px;
   margin-left: auto;
   margin-right: auto;
-  background: cornflowerblue;
 }
 .header {
   padding-top: 70px;
