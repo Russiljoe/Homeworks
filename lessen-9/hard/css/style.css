@@ -34,7 +34,8 @@ img {
 }
 .button {
   margin-bottom: 20px;
-  border: none solid transparent;
+  cursor: pointer;
+  border: none;
   border-radius: 5px;
   background-color: #f05a22;
   color: #fff;
@@ -44,8 +45,10 @@ img {
   margin-right: 40px;
 }
 .button-o {
+  padding: 20px 43px;
+  cursor: pointer;
   background-color: transparent;
-  border: 3px solid #f05a22;
+  border: 2px solid #f05a22;
   color: #f05a22;
 }
 .features {
