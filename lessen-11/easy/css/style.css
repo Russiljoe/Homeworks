@@ -1,0 +1,88 @@
+body {
+  font-family: "Proxima Nova";
+  background-color: #f9f9f9;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: auto;
+  height: 200px;
+}
+
+.header-title {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.features-block {
+  height: auto;
+}
+
+.features-block__background {
+  overflow: hidden;
+  text-align: center;
+}
+
+.features-block__ramka {
+  padding: 25px;
+  margin-bottom: 25px;
+  padding: 25px 15px;
+}
+
+.features-block img {
+  background-color: #ffffff;
+  width: 263px;
+  height: 210px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.features-block__text, .features-block__sum {
+  text-align: center;
+  padding: 0 0 25px 0;
+}
+
+.features-block__text {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.features-block__sum {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.features-block__button {
+  text-align: center;
+}
+
+.features-block__button-sum {
+  background: #fff;
+  padding: 23px 75px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #23bac1;
+  border: 1px solid #23bac1;
+}
+/*# sourceMappingURL=style.css.map */
