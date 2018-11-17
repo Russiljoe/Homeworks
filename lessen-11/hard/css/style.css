@@ -6,25 +6,33 @@ body {
   width: 1140px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container_2 {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
   padding-top: 77px;
   padding-bottom: 96px;
 }
 
 .header-img {
-  width: 39%;
-  display: inline-block;
   vertical-align: middle;
 }
 
 .header-text {
-  width: 60%;
-  display: inline-block;
   vertical-align: middle;
 }
 
@@ -85,7 +93,6 @@ body {
 }
 
 .features-block {
-  display: inline-block;
   text-align: center;
   width: 25%;
   float: left;
