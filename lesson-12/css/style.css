@@ -1,7 +1,7 @@
 body {
   font-family: "Open Sans";
-  width: 1920px;
-  height: 680px;
+  height: auto;
+  width: auto;
 }
 
 .header {
@@ -44,7 +44,7 @@ body {
 }
 
 .features-container {
-  margin: 14px;
+  margin: 1%;
   background-color: #ffffff;
   text-align: center;
   height: auto;
@@ -103,6 +103,8 @@ body {
 }
 
 .features-container__button {
+  outline: none;
+  border: 5px;
   margin: 15px;
   width: 207px;
   height: 54px;
@@ -112,7 +114,6 @@ body {
 }
 
 .features-container__botton-text {
-  text-align: center;
   color: #616467;
   font-size: 13px;
   font-weight: 300;
@@ -122,6 +123,7 @@ body {
 
 input {
   font-size: 13px;
+  outline: none;
   padding: 21px 70px 21px 20px;
   border: 1px solid #cecece;
   background: #F6F6f6;
