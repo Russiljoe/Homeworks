@@ -1,0 +1,105 @@
+body {
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.705)
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  display: inline-grid;
+  padding-left: 8%;
+  padding-right: 8%;
+  
+  grid-template-areas: 'header header header-content header-content'
+                        'main__elem1 main__elem2 main__elem3 main__elem4'
+                        'footer-content footer-content footer footer';
+  
+grid-template-rows: 500px 500px 500px;
+grid-template-columns: 400px 400px 400px 400px;
+}
+
+.header {
+  grid-area: header;
+  background: url(img/PHOTO_title.png) no-repeat center;
+  background-size: cover;
+}
+
+.header__h1 {
+  font-size: 24pt;
+  color: rgba(102, 102, 102, 255);
+  text-align: left;
+}
+
+.header__p {
+  font-size: 24pt;
+  color: rgba(102, 102, 102, 255);
+  text-align: left;
+}
+
+.header-content {
+  grid-area: header-content;
+  background: #cacaca;
+  padding: 15% 5%;
+}
+
+.main__elem1 {
+  grid-area: main__elem1;
+  background: url(img/PHOTO_1.png) no-repeat center;
+  background-size: cover;
+}
+
+.main__elem2 {
+  grid-area: main__elem2;
+  background: url(img/PHOTO_2.png) no-repeat center;
+  background-size: cover;
+}
+
+.main__elem3 {
+  grid-area: main__elem3;
+  background: url(img/PHOTO_3.png) no-repeat center;
+  background-size: cover;
+}
+
+.main__elem4 {
+  grid-area: main__elem4;
+  background: url(img/PHOTO_4.png) no-repeat center;
+  background-size: cover;
+}
+
+.footer {
+  grid-area: footer;
+  background: url(img/PHOTO_5.png) no-repeat left teal;
+}
+
+.footer-content {
+  grid-area: footer-content;
+  background: teal;
+  padding: 10% 10%;
+}
+
+.footer__h1 {
+  font-size: 24pt;
+  color: rgba(249, 249, 249, 255);
+  text-align: left;
+  padding: 16px
+}
+
+.footer__p {
+  font-size: 24pt;
+  color: rgba(249, 249, 249, 255);
+  text-align: left;
+  padding: 16px
+}
+
+.footer__button {
+  margin: 16px;
+  font-size: 18pt;
+  border-radius: 40px;
+  color: rgba(249, 249, 249, 255);
+  background-color: transparent;
+  border: 2px solid rgba(249, 249, 249, 255);
+  padding: 22px
+}
